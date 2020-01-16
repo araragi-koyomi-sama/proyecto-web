@@ -1,0 +1,179 @@
+.menu-li-item{
+    font-family: 'Roboto mono', Courier, monospace;
+    text-align: left;
+    margin: 0px;
+}
+body{
+   background: #21963e;
+  /*esto es un comentario*/
+   /* background-image: url("C:/Users/MSI/Documents/programacion/html_y_css/imagenes/viajes/hogar.jpg");*/
+    font-family: Arial, Helvetica, sans-serif ;
+    margin: 0px;
+}
+
+body section div p{
+    color: #1e1f3f;
+}
+body section{
+    background: rgb(165, 89, 92);
+}
+body section h4{
+    color:#3c3e85;
+}
+.parrafo,
+.proyect-image-container{
+    background:rgb(148, 34, 43);
+    width: 1000px;
+    margin: 0px auto auto auto;
+    border-color: #3c3e85;
+    border-width: 1px;
+    border-radius: 10px;
+    border-style: solid;
+    padding: 10px;
+}
+
+.contact-button:hover{
+    border:3px solid rebeccapurple;
+}
+.section-mensaje{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    line-height: 1.1;
+    text-transform: capitalize;
+    text-decoration: dashed;
+}
+.parrafo {
+    font-family:'Special Elite', cursive;
+    font-size: 20px;
+    line-height: 1.1;
+    margin: 10px auto 0px auto;
+    border-color: #2F4F4F;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.parrafo p{
+    margin: 0px;
+}
+.etiqueta-imagen{
+    font-family: cursive;
+}
+.page-content{
+    width: 1500px;
+    margin:0px;
+    border-color: #3c3e85;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.header{
+    background-image: url("C:/Users/MSI/Documents/programacion/html_y_css/imagenes/viajes/orquidea.jpg");
+    background-repeat: no-repeat;
+    background-color: cornflowerblue;
+    background-position:990px;
+    background-size: 500px;
+    width: 1500px;
+    height: 300px;
+    /*margin: 0px 10px 0px 0px;*/
+    line-height: .0.1;
+    border-color: #3c3e85;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    /*background: #2F4F4F;*/
+    display: flex;
+}
+.nav{
+    margin: 0px;
+    
+    
+}
+.menu-li{
+    margin: 0px;
+    display: flex;
+    justify-content: flex-start;
+
+    
+}
+.menu-li-item{
+    margin: 0.9%;
+}
+.real-math{
+    margin: 0;
+}
+.hero{
+    text-transform: uppercase;
+    background-image:url("C:/Users/MSI/Documents/programacion/html_y_css/imagenes/entrenadora_piplot.PNG") ;
+    background-size: 390px;
+    width: 1500px;
+    height: 390px;
+    background-repeat: no-repeat;
+    background-position: 1095px;
+    text-align: left;
+    background-color: teal;
+    color: aliceblue ;
+    font-size: larger;
+    border-color: #3c3e85;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    margin: 0 5px 0.3% 0;
+    padding: 5px;
+    box-sizing: border-box;
+    box-shadow:5px 5px 5px black;
+}
+.menu-li-item-text{
+    margin: 0;
+    text-align: left;
+}
+.proyect-image-container{
+    /*margin: 0 auto auto auto;*/
+    display: flex;
+}
+.contained{
+    /* width: 500px; */
+    margin: 20px;
+
+}
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-color: #2F4F4F;
+    border-width: 5px;
+    border-style: solid;
+    flex-shrink: 0;
+
+    
+}
+.page-content-items{
+    display: flex;
+}
+.info-container{
+    width: 1500px;
+    height: 500px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: azure;
+    background-color: brown;
+}
+.section-mensaje{
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    border-radius:50%;
+    border-style: solid;
+    margin: 0;
+}
